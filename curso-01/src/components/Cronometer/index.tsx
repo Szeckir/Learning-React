@@ -4,8 +4,8 @@ import Clock from './Clock'
 
 function Cronometer() {
   return (
-    <div>
-        <p>Escolha um card e inicie o cronômetro</p>
+    <div className='text-center justify-center content-center'>
+        <p className='font-bold'>Escolha um card e inicie o cronômetro</p>
 
         <div>
             <Clock/>
